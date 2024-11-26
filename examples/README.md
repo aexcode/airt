@@ -7,5 +7,5 @@ Examples here are created to demonstrate types of failure mode analysis. The [Mi
 ### Perturbation
 *Attacker modifies the query to get appropriate response*
 
-[Example](fma/PerturbationExample-ImageClassifier.ipynb): A pretrained image classifier is given an image of an elephant. The image is then perturbed to add adversarial noise, which causes a misclassification.
+[Example](fma/PerturbationExample_ImageClassifier.ipynb): A pretrained image classifier is given an image of an elephant. The image is then perturbed to add adversarial noise, which causes a misclassification.
 
