@@ -10,3 +10,11 @@
 * Select two features to attack as example (red & blue)
 * Randomly poison a portion of the training data (change *poisoning_ratio* to alter level of poisoning) by flipping labels
 *  Using Logistic Regression, demonstrate the shift in decision boundary based on poisoning ratio and visualize (eg at 20% poisoned inputs, boundary will shift to .88 avg accuracy from 1.00)
+
+## Data Poisoning - SMS Spam Detection
+* Load a free pre-trained sms spam detection model from Hugging Face
+* Load an sms spam dataset and split into train and test
+* Randomly poison a portion of the training data (change *poisoning_ratio* to alter level of poisoning) by flipping labels
+* Fine-tune model by training on the now poisoned training data (this training session takes a little while)
+* Evaluate the poisoned samples ad classification failure rates based on portion poisoned data
+
