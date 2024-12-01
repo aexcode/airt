@@ -15,6 +15,6 @@
 * Load a free pre-trained sms spam detection model from Hugging Face
 * Load an sms spam dataset and split into train and test
 * Randomly poison a portion of the training data (change *poisoning_ratio* to alter level of poisoning) by flipping labels
-* Fine-tune model by training on the now poisoned training data (this training session takes a little while)
-* Evaluate the poisoned samples ad classification failure rates based on portion poisoned data
+* Fine-tune model by training on the now poisoned training data (this training session takes a little while; GPU will significantly improve training time)
+* Evaluate the poisoned samples and classification failure rates based on portion poisoned data
 
