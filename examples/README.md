@@ -16,3 +16,5 @@ Examples here are created to demonstrate types of failure mode analysis. The [Mi
 [Classification Example](fma/DataPoisoningExample-FeatureDetection.ipynb): The Iris dataset is used with two samples to illustrate poisoning datasets with a visualization of skewed results versus normal outputs
 
 [SMS Spam Filter Example](fma/DataPoisoningExample-SMSSpamDetection.ipynb): A public SMS spam detection model is fine-tuned over a poisoned SMS spam dataset
+
+[Weather Prediction Example](fma/DataPoisoningExample-WeatherPrediction.ipynb): A weather prediction example using the day of year as a predictor given temperature mins and maxes to provide an expected average
