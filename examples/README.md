@@ -20,3 +20,9 @@ Examples here are created to demonstrate types of failure mode analysis. The [Mi
 [SMS Spam Filter Example](fma/DataPoisoningExample-SMSSpamDetection.ipynb): A public SMS spam detection model is fine-tuned over a poisoned SMS spam dataset
 
 [Weather Prediction Example](fma/DataPoisoningExample-WeatherPrediction.ipynb): A weather prediction example using the day of year as a predictor given temperature mins and maxes to provide an expected average
+
+### Model Inversion
+*Inferring or reverse engineering sensitive training data or parameters from model outputs.*
+[Model Inversion Example](fma/ModelInversionExample-HandwritingDetection.ipynb): A basic example of the concept of model inversion against the MNIST handwriting digit dataset
+
+[Adversarial Robustness Toolbox (ART) Model Inversion Example](https://github.com/Trusted-AI/adversarial-robustness-toolbox/blob/main/notebooks/model_inversion_attacks_mnist.ipynb): A more realistic and sophisticated walkthrough of model inversion from the Trusted AI ART notebooks. 
